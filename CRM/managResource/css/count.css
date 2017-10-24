@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+.count_div{
+	overflow: auto;
+	margin-bottom:30px;
+	border-bottom:1px solid #eee;
+}
+.count_chl_div{
+	margin-bottom: 30px;
+}
+
+.count_chl_div label{
+	display:inline;
+	margin-right: 10px;
+}
+
+.count_chl_div input{
+	display:inline;
+	width:130px;
+	margin-right: 10px;
+}
+.count_chl_div select{
+	display:inline;
+	width:130px;
+	margin-right: 10px;
+}

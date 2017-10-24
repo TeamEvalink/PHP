@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* reset */
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+ol>li{list-style-type: decimal;}
+li{list-style: none;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,input,button,select,keygen,legend{font:12px/1.14;font-family:"微软雅黑","Helvetica Neue", Helvetica, STHeiTi, sans-serif;color:#333;outline:0;}
+body{background:#fff;}
+
+.PosDetails_banner_p span{
+	background:none!important;
+	color:#fff!important;
+	font-size:16px!important;
+}
+.PosDetails_zwms_one_left_nr_l div,.PosDetails_zwms_one_left_nr_l p,.PosDetails_zwms_one_left_nr_l ul,.PosDetails_zwms_one_left_nr_l ul li,.PosDetails_zwms_one_left_nr_l ol,.PosDetails_zwms_one_left_nr_l ol li,.PosDetails_zwms_one_left_nr_l span{
+	background:none!important;
+}
+
+/*空白页面*/
+.DeliveryBlank{
+	width:600px;
+	overflow:hidden;
+	clear:both;
+	background:url(/clientResource/images/DeliveryBlank.png) center 50px no-repeat;
+	padding-top:300px;
+	padding-bottom:50px;
+	text-align:center;
+	font-size:14px;
+	margin:0 auto;
+	color:#666;
+}

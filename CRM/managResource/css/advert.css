@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+
+.system_advert_nav {
+	padding-bottom: 20px;
+	overflow: auto;
+	margin-bottom:30px;
+	border-bottom:1px solid #eee;
+}
+.system_advert_nav div {
+	margin-bottom:15px;
+}
+.system_advert_nav h3{
+	float: left;
+	margin-right: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.system_advert_nav select{
+	float: left;
+	width:200px;
+	margin-right: 20px;
+}
+.system_advert_nav input{
+	float: left;
+	margin-right: 20px;
+	width:200px;
+}
+
+.pagination{
+ 	margin-top: 0px;
+}
+
+.col-sm-10{
+	width:75%
+}
+.col-sm-2{
+	width:25%
+}
+
+.advertInfoDiv{
+	display:none;
+}
+/*下拉样式*/
+.cityCheck{
+    list-style: none !important;
+    padding: 0;
+}
+.cityCheck:first-child{
+    box-sizing: border-box;
+    border-right: 1px solid #e3e3e3;
+}

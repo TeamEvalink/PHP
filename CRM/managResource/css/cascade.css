@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+.system_cascade_nav{
+	margin-bottom:30px;
+}
+
+.system_cascadeList_nav {
+	padding-bottom: 20px;
+	overflow: auto;
+	margin-bottom:30px;
+	border-bottom:1px solid #eee;
+}
+.system_cascadeList_nav div {
+	margin-bottom:15px;
+}
+.system_cascadeList_nav h3{
+	float: left;
+	margin-right: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.system_cascadeList_nav select{
+	display:inline-block;
+	width:300px;
+	margin-right: 20px;
+}
+.system_cascadeList_nav textarea{
+	float: left;
+	margin-right: 20px;
+	width:300px;
+}

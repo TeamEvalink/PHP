@@ -1,0 +1,149 @@
+/*职位条件筛选*/
+.jobView_filtrateBox{
+    width: 100%;
+    margin-bottom:30px;
+}
+.jobView_filtrate{
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+}
+.filtrateBox{
+    clear: both;
+}
+.filtrateBox>div>div{
+    float: right;
+    font-size: 14px
+    color: #a1a1a1;
+    cursor: pointer;
+	vertical-align:middle;
+	line-height:30px;
+}
+.filtrateBox>div>div:hover{
+    color: #da4571;
+}
+.filtrateBox>div>div img{
+    vertical-align:middle;
+	display:inline-block;
+}
+.filtrateBox h3{
+    float: left;
+    font-size: 14px;
+    padding: 5px 0;
+    margin:0;
+}
+.jf_hotCity{
+    margin-left: 30px;
+    margin-bottom:0;
+}
+.jf_hotCity,.jf_allCity{
+    display: inline-block;
+}
+.jf_hotCity li,.jf_allCity li{
+    float: left;
+    font-size: 14px;
+    cursor: pointer;
+    list-style:none;
+}
+.jf_hotCity li{
+    border-radius: 3px;
+    padding: 6px 10px;
+    margin-right: 7px;
+}
+.jf_hotCityHover{
+    color: #00a0e8;
+}
+.jf_lifirstChild{
+    background: #00a0e8;
+    color: #fff;
+}
+.jf_allCity{
+    margin-top: 5px;
+    margin-left: 67px;
+    margin-bottom:0;
+}
+.jf_allCity li{
+    text-align: left;
+    margin-left: 20px;
+}
+.jf_allCityLi{
+    color: #00a0e8;
+}
+.jf_allCityChoosen{
+    color: #00a0e8;
+}
+.jobView_cityInfo{
+    font-size: 14px;
+    margin-top: 7px;
+    margin-left: 67px;
+    float: left;
+}
+.jobView_cityInfo ul{
+    margin:0;
+    overflow:hidden;
+    clear:both;
+}
+
+.jobView_cityInfo li{
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 6px 10px;
+    list-style:none;
+}
+.moreCityInfo{
+    display: none;
+    margin-left: 10px;
+}
+.filtrateBox:nth-child(3),.filtrateBox:nth-child(4),.filtrateBox:nth-child(5){
+    margin-top: 15px;
+}
+.jf_allArea,.jf_xz{
+    margin-left: 67px;
+    margin-top: 7px;
+    padding-bottom: 30px;
+    display: none;
+}
+.jf_allArea li,.jf_xz li{
+    float: left;
+    margin-left: 20px;
+    font-size: 14px
+    border-radius: 3px;
+    padding: 6px 10px;
+    cursor: pointer;
+    list-style:none;
+    border-radius:3px;
+}
+
+/*搜索*/
+.jobView_searchPart{
+    width:100%;
+    text-align:center;
+    vertical-align:middle;
+    margin:10px 0px 20px 0;
+}
+.jobView_searchPart input{
+    display:inline-block;
+    width:364px;
+    height:48px;
+    border:1px solid #e3e3e3;
+    border-radius:5px;
+    background:#fff;
+    font-size:16px;
+    padding-left:10px;
+    color:#666;
+    vertical-align:middle;
+}
+.jobView_searchPart button{
+    display:inline-block;
+    vertical-align:middle;
+    width:90px;
+    height:48px;
+    border:none;
+    background:#da4571;
+    border-radius:5px;
+    color:#fff;
+    font-size:16px;
+    margin-left:5px;
+}
